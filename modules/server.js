@@ -1,7 +1,7 @@
 var http = require('http');
 var colors = require('colors');
 
-var handlers = require('./modules/handlers');
+var handlers = require('./handlers');
 
 function start() {
 	function onRequest(request, response) {
